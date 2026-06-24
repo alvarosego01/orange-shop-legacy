@@ -1,0 +1,55 @@
+.Product_Content, .tab-content{
+	background: #fff;
+	border: 1px solid #000;
+}
+
+.nav-tabs{
+	background: #000;
+	border: 1px solid #000;
+}
+
+.nav-tabs > li.active > a{
+	color:#fff;
+	border: none;
+	background: #000;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.Product_Button
+{
+	background: #000;
+    padding:10px;
+    border:1px solid #000;
+	position:relative;
+}
+.margin50{
+    margin-top:50px
+}
+.productbtn:after {
+    font-family: "Glyphicons Halflings";
+    content: "\e114";
+    float: right;
+    margin-left: 15px;
+  }
+  /* Icon when the collapsible content is hidden */
+  .productbtn.collapsed:after {
+    content: "\e080";
+  }
+  .width450
+  {
+      width:450px
+  }
+  .margin50 {
+    margin-top:50px;   
+}
+input[type=radio], input[type=checkbox]
+{
+    margin:4px !important;
+}
+.dimentions-width, .dimentions-height
+{
+    width:90%;
+    display:initial;
+}

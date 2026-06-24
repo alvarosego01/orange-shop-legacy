@@ -1,0 +1,79 @@
+/*Panel tabs*/
+.panel-tabs {
+    position: relative;
+    bottom: 30px;
+    clear:both;
+    border-bottom: 1px solid transparent;
+	width:100%;
+
+}
+
+.panel-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+
+.panel-tabs > li > a {
+    margin-right: 2px;
+    line-height: .80;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    color: #ffffff;
+}
+
+.panel-tabs > li > a:hover {
+    border-color: transparent;
+    color: #ffffff;
+}
+
+.panel-tabs > li.active > a,
+.panel-tabs > li.active > a:hover,
+.panel-tabs > li.active > a:focus {
+    color: #000;
+    cursor: default;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: rgba(255,255,255,255);
+    border-bottom-color: transparent;
+}
+
+.panel {
+    background-color: #fff;
+    height: 545px;
+    width: 1300px;
+    float: right;
+    margin-right: -370px;
+}
+
+.ajustar-Panel {
+    background-color: #fff;
+    height: 505px;
+    width: 400px;
+	border: 1px solid black;
+}
+
+.ajustar-Panel2 {
+    background-color: #fff;
+    height: 505px;
+    width: 400px;
+    float: right;
+    margin-top: -505px;
+    margin-right: 450px;
+	border: 1px solid black;
+}
+
+.ajustar-Panel3 {
+    background-color: #fff;
+    height: 505px;
+    width: 400px;
+    float: right;
+    margin-top: -505px;
+    margin-right: 0px;
+	border: 1px solid black;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
